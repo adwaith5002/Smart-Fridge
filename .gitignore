@@ -1,0 +1,15 @@
+# Arduino
+*.log
+*.tmp
+*.backup
+*.bin
+*.elf
+*.hex
+
+# Edge Impulse temporary files
+*.data
+*.tmp
+
+# VSCode/IDE files
+.vscode/
+.idea/
