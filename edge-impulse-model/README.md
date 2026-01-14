@@ -1,0 +1,1 @@
+<pre><code markdown> # Edge Impulse Model This folder contains the Edge Impulse-exported Arduino library for the trained CNN model. ✅ Includes the source files ✅ Model parameters ✅ Ready to install into Arduino IDE To install: 1. Open Arduino IDE 2. Sketch → Include Library → Add .ZIP Library… 3. Select this folder as a ZIP (or re-ZIP it locally) </code></pre>
