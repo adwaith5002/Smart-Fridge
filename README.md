@@ -1,3 +1,10 @@
-# Smart-Fridge
-An IoT system that can detect rotten food with the help of Machine learning.
-Requirements: ESP-32 board, Esp32-camera module.
+<pre>
+    <code markdown>
+     # Smart Fridge — Rotten Fruit Detection using ESP32-CAM ## 
+     🚀 Project Overview This project detects whether a fruit is **fresh or rotten** using a Convolutional Neural Network (CNN) running on an **ESP32-CAM module**. The model is trained using **Edge Impulse** and deployed to the ESP32 for on-device inference. The system is designed for a smart refrigerator application where rotten fruits are identified and reported automatically. --- 
+     ## 🧠 Machine Learning Model ###
+      📊 Dataset We used the publicly available dataset: https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification 
+      Data preparation included: ✔ Cleaning ✔ Resizing to 96×96 ✔ Label formatting (fresh / rotten) Training was done using **Edge Impulse**, achieving: | Metric | Value | |--------|-------| | Validation Accuracy | ~96% | | Test Accuracy | ~94.6% | | Quantized Model | Yes (int8) | ### 📈 Confusion Matrix The confusion matrix indicates balanced classification between fresh and rotten images. --- ## 🛠 Deployment ### 📦 Edge Impulse Model The exported Arduino library for the trained model is in: ``` edge-impulse-model/ ``` Install it in **Arduino IDE** via: ``` Sketch → Include Library → Add .ZIP Library… ``` ### 📟 ESP32 Code The ESP32 inference sketch is in: ``` esp32/esp32_cam_rotten_fruit.ino ``` You can open and compile this once your hardware is available. --- ## 
+      📋 Communication Interfaces | Interface | Used For | |-----------|-----------| | UART | Uploading firmware, Serial debug | | I2C (SCCB) | Camera sensor configuration | | I2S | Image data interface | --- ## 📌 Hardware (Planned) | Component | Notes | |-----------|--------| | ESP32-CAM (AI Thinker) | Main module | | USB → TTL Adapter | Required to program ESP32 | | Jumper wires | For wiring | | Optional: Enclosure + heater | For fridge temperature | --- ## 📁 Repo Structure ``` Smart-Fridge/ ├── edge-impulse-model/ ├── esp32/ ├── docs/ ├── .gitignore └── README.md ``` --- ## 📌 Future Work ✅ Collect real fridge images ✅ Fine-tune model ✅ Thermal enclosure (if operating below 0°C) ✅ UI/notification system --- ## 📜 License Distributed under MIT License — expand as needed. 
+     </code>
+</pre>
