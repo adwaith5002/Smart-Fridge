@@ -60,33 +60,27 @@ The code can be compiled and uploaded to the hardware
 
 ---
 
-## Hardware (Planned)
+## Hardware
 
 | Component | Description |
 |--------|------------|
 | ESP32-CAM (AI Thinker) | Main processing and camera module |
 | USB-to-TTL Adapter | Required to program ESP32-CAM |
 | Jumper Wires | Board connections |
-| Enclosure + Heater (optional) | Operation in low temperatures |
+| Temperature Sensor | Check Operation in low temperatures |
 
 ---
 
-## Repository Structure
+## User Dashboard Website Repository
 
-Smart-Fridge/
-├── edge-impulse-model/
-├── esp32/
-├── docs/
-├── .gitignore
-├── LICENSE
-└── README.md
+https://github.com/adwaith5002/refrigerator_website
+
 ---
 
 ## Future Work
-- Collect real fridge images
-- Fine-tune the model for real-world conditions
-- Add thermal enclosure for operation below 0 °C
-- Implement a notification or user interface system
+- Expand dataset to more fruits and vegetables
+- Add Gas sensor to the system for more accurate readings
+- Collect real fridge images and fine-tune the model for real-world conditions
 
 ---
 
