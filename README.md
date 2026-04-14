@@ -6,6 +6,11 @@ This project implements a **Convolutional Neural Network (CNN)**–based system 
 The CNN model is trained using **Edge Impulse**, optimized for embedded deployment, and exported as an Arduino library for execution on the ESP32 platform.
 
 ---
+## Architecture Diagram
+
+<img src="./images/image.png">
+
+---
 
 ## Machine Learning Model
 
