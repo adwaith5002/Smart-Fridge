@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/Fridge_logo.png" alt="Smart Fridge logo" width="50">
+  <img src="./images/Fridge_logo.png" alt="Smart Fridge logo" width="80">
 </p>
 
 <h1 align="center">Smart Fridge</h1>
@@ -9,6 +9,8 @@
 
 This project combines embedded AI, computer vision, and IoT monitoring to detect whether fruit stored inside a refrigerator is fresh or rotten. The system uses an ESP32-CAM module running a compact Edge Impulse model for on-device inference and reports results through ThingsBoard and a companion web dashboard.
 
+
+## Architecture Diagram
 <p align="center">
   <img src="./images/image.png" alt="Smart Fridge system overview" width="100%">
 </p>
